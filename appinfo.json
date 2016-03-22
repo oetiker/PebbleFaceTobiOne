@@ -19,7 +19,7 @@
             {
                 "characterRegex": "[0-9:]",
                 "file": "fonts/Envy Code R.ttf",
-                "name": "ENVY_CODE_R_30",
+                "name": "ENVY_CODE_R_34",
                 "targetPlatforms": null,
                 "type": "font"
             }

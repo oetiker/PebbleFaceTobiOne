@@ -15,13 +15,13 @@ static void main_window_load(Window *window) {
 
   // Create the TextLayer with specific bounds
   s_time_layer = text_layer_create(
-      GRect(0, PBL_IF_ROUND_ELSE(48, 42), bounds.size.w, 50));
+      GRect(0, PBL_IF_ROUND_ELSE(42, 40), bounds.size.w, 50));
 s_date_layer = text_layer_create(
       GRect(0, PBL_IF_ROUND_ELSE(88, 82), bounds.size.w, 50));
 
 
     // Create GFont
-    s_time_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_ENVY_CODE_R_30));
+    s_time_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_ENVY_CODE_R_36));
     s_date_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_ENVY_CODE_R_24));
 
     // Apply to TextLayer
