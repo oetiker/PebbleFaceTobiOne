@@ -1,0 +1,39 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "tobi@oetiker.ch",
+    "enableMultiJS": true,
+    "longName": "TobiOne",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "characterRegex": "[0-9:-]",
+                "file": "fonts/Envy Code R.ttf",
+                "name": "ENVY_CODE_R_24",
+                "targetPlatforms": null,
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9:]",
+                "file": "fonts/Envy Code R.ttf",
+                "name": "ENVY_CODE_R_30",
+                "targetPlatforms": null,
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "TobiOne",
+    "targetPlatforms": [
+        "basalt",
+        "chalk"
+    ],
+    "uuid": "4974f744-5352-4476-ab2a-9aff1e3212e7",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
